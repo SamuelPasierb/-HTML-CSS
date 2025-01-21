@@ -1,6 +1,39 @@
 body {
     width: 80%;
     margin: 20px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    font-weight: bold;
+    color: black;
+}
+
+a:hover {
+    color: gray
+}
+
+a:active {
+    color: darkgray
+}
+
+header {
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 2em;
+}
+
+li.right {
+    float: right;
 }
 
 article {
@@ -14,20 +47,20 @@ article img {
 }
 
 article p {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .quote {
     display: flex;
-    font-size: 2em;
+    font-size: 1.5em;
     border-top: 1px darkgray solid;
     border-bottom: 1px darkgray solid;
 }
 
 .quote b {
-    margin-top: 15px;
+    margin-top: 25px;
     display: inline;
-    font-size: 4em;
+    font-size: 2.5em;
 }
 
 .quote i {
@@ -37,21 +70,38 @@ article p {
 }
 
 .lead {
-    font-size: 1.7em;
+    font-size: 1.2em;
     margin: 0;
     color: gray;
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 h1 {
     margin: 0;
-    font-size: 5em;
+    font-size: 3em;
 }
 
 article a {
     color: black;
     font-weight: bold;
+}
+
+footer {
+    border-top: 3px solid black;
+    padding-top: 15px;
+}
+
+footer h3 {
+    color: black;
+    display: inline;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.3em;
+    display: inline;
+    float: right;
 }
