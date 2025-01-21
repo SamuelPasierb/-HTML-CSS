@@ -1,0 +1,57 @@
+body {
+    width: 80%;
+    margin: 20px auto;
+}
+
+article {
+    letter-spacing: -0.3px;
+}
+
+article img {
+    width: 100%;
+    padding: 0px auto;
+    margin: 0;
+}
+
+article p {
+    font-size: 2em;
+}
+
+.quote {
+    display: flex;
+    font-size: 2em;
+    border-top: 1px darkgray solid;
+    border-bottom: 1px darkgray solid;
+}
+
+.quote b {
+    margin-top: 15px;
+    display: inline;
+    font-size: 4em;
+}
+
+.quote i {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.lead {
+    font-size: 1.7em;
+    margin: 0;
+    color: gray;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h1 {
+    margin: 0;
+    font-size: 5em;
+}
+
+article a {
+    color: black;
+    font-weight: bold;
+}
